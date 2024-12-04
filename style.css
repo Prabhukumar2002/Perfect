@@ -1,0 +1,79 @@
+    @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+    body {
+        margin-top: 200px;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: 1000px;
+        background-image: url(hart-heart.gif);
+        background-position: center center;
+    }
+    audio {
+        display: none;
+    }
+    .heart{
+        position: absolute;
+    }
+    .h {
+        text-align: center;
+        background-image: url(cj4.jpg);
+        font-feature-settings: "c2pc";
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    .paper {
+        background-image: url(https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1);
+        background-size: 500px;
+        background-position: center center;
+        padding: 20px 100px;
+        transform: rotateZ(-7deg);
+        box-shadow: 1px 15px 20px 10px black;
+        position: absolute;
+    }
+    
+    .paper .heart {
+        position: relative;
+        height: 200px;
+        width: 200px;
+        padding: 0;
+        border-radius: 50%;
+    }
+    
+    .paper.image {
+        padding: 10px;
+    }
+    
+    .paper.image p {
+        padding: 30px;
+    }
+    
+    img {
+        max-height: 200px;
+        width: 200px;
+        user-select: none;
+    }
+    
+    .paper.heart::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: 150px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+    
+    p {
+        font-family: "zeyada";
+        font-size: 50px;
+        color: rgb(0, 0, 100);
+        opacity: 0.75;
+        user-select: none;
+    }
